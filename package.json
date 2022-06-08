@@ -1,0 +1,18 @@
+{
+  "name": "onliner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test --headed",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.22.2",
+    "eslint": "^8.8.0",
+    "eslint-config-prettier": "^8.3.0"
+  }
+}
